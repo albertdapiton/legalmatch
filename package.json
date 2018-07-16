@@ -1,0 +1,37 @@
+{
+  "name": "legalmatch",
+  "version": "1.0.0",
+  "description": "Legal Match Exam",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertdapiton/legalmatch.git"
+  },
+  "keywords": [
+    "legalmatcg"
+  ],
+  "author": "Albert Dapiton",
+  "bugs": {
+    "url": "https://github.com/albertdapiton/legalmatch/issues"
+  },
+  "homepage": "https://github.com/albertdapiton/legalmatch#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "css-loader": "^1.0.0",
+    "exports-loader": "^0.7.0",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
