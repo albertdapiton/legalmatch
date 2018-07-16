@@ -8,6 +8,292 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <script src="./bundle.js"></script>
+        <div class="site-container">
+            <header>
+                <div class="header-flex-row">
+                    <div class="flex-item-logo">
+                        <img src="images/header-logo.png">
+                    </div>
+                    <div class="flex-item-text">
+                        <ul class="header-text">
+                            <li>No free to present your case</li>
+                            <li>Choose from lawyers in your area</li>
+                            <li>A 100% confidential service</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <h1>Find a Lawyer for your Legal Issue</h1>
+                <h2>Fast, Free and Confidential</h2>
+                <div class="flex-row">
+                    <div class="flex-left">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label class="form-label">Enter Zip Code or City:</label>
+                                <div class="autocomplete input-wrap">
+                                    <span class="number-circle">1</span>
+                                    <input id="zipcode" class="input-field" type="text" name="zipcode" placeholder="Does not have to be where you live">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label class="form-label">Choose a category:</label>
+                                <div class="custom-select-field input-wrap">
+                                    <span class="number-circle">2</span>
+                                    <select name="category">
+                                        <option value="">Click to choose a legal category</option>
+                                        <option value="Family">Family</option>
+                                        <option value="Criminal Defense">Criminal Defense</option>
+                                        <option value="Business">Business</option>
+                                        <option value="Personal Injury">Personal Injury</option>
+                                        <option value="Bankruptcy &amp; Finances">Bankruptcy &amp; Finances</option>
+                                        <option value="Product &amp; Services">Product &amp; Services</option>
+                                        <option value="Employement">Employement</option>
+                                        <option value="Real Estate">Real Estate</option>
+                                        <option value="Immigration">Immigration</option>
+                                        <option value="Wills, Trusts &amp; Estates">Wills, Trusts &amp; Estates</option>
+                                        <option value="Government">Government</option>
+                                        <option value="Intellectual Property">Intellectual Property</option>
+                                    </select>
+                                    <span class="chevron"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-bottom">
+                            Can’t find your category? <a href="#">Click here</a>.
+                        </div>
+                    </div>
+                    <div class="flex-right">
+                        <h3>Clients review LegalMatch lawyers </h3>
+                        <ul class="client-reviews">
+                            <li>
+                                <div class="review">
+                                    <div class="flex-row">
+                                        <div class="flex-item-logo">
+                                            <img src="/images/mitchell-copy.png">
+                                            <span class="client-name">Mitchell M.</span>
+                                            <span class="location">Cherry Hill, NJ</span>
+                                        </div>
+                                        <div class="flex-item-desc">
+                                            <div class="flex-row">
+                                                <div class="flex-item-review-name">
+                                                    <span class="review-name">Family Law</span>
+                                                </div>
+                                                <div class="flex-item-review-star">
+                                                    <ul class="review-star">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="review-desc">
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...” 
+                                            </div>
+                                            <a href="#" class="review-link" data-toggle="modal" data-target="#clientReviews">Read Review</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review">
+                                    <div class="flex-row">
+                                        <div class="flex-item-logo">
+                                            <img src="/images/joel-c-copy.png">
+                                            <span class="client-name">Joel C.</span>
+                                            <span class="location">Little Rock, AK</span>
+                                        </div>
+                                        <div class="flex-item-desc">
+                                            <div class="flex-row">
+                                                <div class="flex-item-review-name">
+                                                    <span class="review-name">Job &amp; Employment Law</span>
+                                                </div>
+                                                <div class="flex-item-review-star">
+                                                    <ul class="review-star">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="review-desc">
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...” 
+                                            </div>
+                                            <a href="#" class="review-link" data-toggle="modal" data-target="#clientReviews">Read Review</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review">
+                                    <div class="flex-row">
+                                        <div class="flex-item-logo">
+                                            <img src="/images/bridfita-copy.png">
+                                            <span class="client-name">Brigida R.</span>
+                                            <span class="location">Dallas, TX</span>
+                                        </div>
+                                        <div class="flex-item-desc">
+                                            <div class="flex-row">
+                                                <div class="flex-item-review-name">
+                                                    <span class="review-name">Family Law</span>
+                                                </div>
+                                                <div class="flex-item-review-star">
+                                                    <ul class="review-star">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="review-desc">
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...” 
+                                            </div>
+                                            <a href="#" class="review-link" data-toggle="modal" data-target="#clientReviews">Read Review</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-flex-row">
+                    <div class="flex-item-logo">
+                        <img src="images/footer-logo.png">
+                    </div>
+                    <div class="flex-item-text">
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">User Agreement</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Site Map</a>
+                            </li>
+                        </ul>
+                        <div class="copyright">
+                            Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch&reg;, <br class="footer-break-line">the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.
+                        </div>
+                    </div>
+                    <div class="flex-item-rating">
+                        <ul class="rating-logo">
+                            <li>
+                                <img src="images/truste.png"/>
+                            </li>
+                            <li>
+                                <img src="images/bbb-rating.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div id="addCategory" class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title"><span class="number-circle">3</span> Which <strong>Family law</strong> issue(s) apply to your case?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="flex-row">
+                    <div class="flex-item">
+                        <div class="form-group">
+                            <label class="container">Adoptions
+                              <input type="checkbox" checked="checked">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Guardoanship
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Child Custody and Visitation
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Paternity
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <div class="form-group">
+                            <label class="container">Child Support
+                              <input type="checkbox" checked="checked">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Separations
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Divorce
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="container">Spousal Support or Alimony
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">FIND A LAWYER NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="clientReviews" class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">CLIENT REVIEWS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="flex-row">
+                    <div class="flex-item">
+                        <img src="/images/bridfita-copy.png">
+                    </div>
+                     <div class="flex-item">
+                        <span class="client-name">Brigida R.</span>
+                        <span class="location">Dallas, TX</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close">CLOSE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="./dist/bundle.js"></script>
     </body>
 </html>

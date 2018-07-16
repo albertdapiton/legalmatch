@@ -1,0 +1,34 @@
+@mixin declare-font-face($font-face-family, $font-face-filename, $font-face-weight : normal, $font-face-style :normal) {
+  @font-face {
+    font-family: '#{$font-face-family}';
+    src: url(('#{$font-face-filename}.otf')) format("opentype");
+    font-weight: $font-face-weight;
+    font-style: $font-face-style;
+  }
+}
+
+@mixin set-appearance($value: none) {
+    -webkit-appearance:     $value;
+    -moz-appearance:        $value;
+    -ms-appearance:         $value;
+    -o-appearance:          $value;
+    appearance:             $value;
+}
+
+$gotham-light: 'Gotham-Light';
+$gotham-medium: 'Gotham-Medium';
+$gotham-bold: 'Gotham-Bold';
+$gotham-book: 'Gotham-Book';
+$gotham-bookita: 'Gotham-BookIta';
+
+@include declare-font-face('#{$gotham-light}', '/fonts/Gotham Font/Gotham font family/#{$gotham-light}');
+
+@include declare-font-face('#{$gotham-medium}', '/fonts/Gotham Font/Gotham font family/#{$gotham-medium}');
+
+@include declare-font-face('#{$gotham-bold}', '/fonts/Gotham Font/Gotham font family/#{$gotham-bold}');
+
+@include declare-font-face('#{$gotham-book}', '/fonts/Gotham Font/Gotham font family/#{$gotham-book}');
+
+@include declare-font-face('#{$gotham-bookita}', '/fonts/Gotham Font/Gotham font family/#{$gotham-bookita}');
+
+$fa-font-path: '/fonts/font-awesome'
